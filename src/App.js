@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./components/Header";
-//import Item from "./components/Item";
 //import ItemControl from "./components/ItemControl";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,9 +18,10 @@ function App(){
     }}
     >
       <section className="py-4 container">
-        <h2>All Kegs</h2>
+        {/* <h2>All Kegs</h2> */}
+        <Header />
         <div className="row justify-content-center">
-        <ItemControl />
+        <KegControl />
         </div>
       </section>
     </div>
