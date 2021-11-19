@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import KegControl from "./components/KegControl";
 import SidePanel from "./components/SidePanel";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 
 function App(){
