@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-//import ItemControl from "./components/ItemControl";
+import KegControl from "./components/KegControl";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
