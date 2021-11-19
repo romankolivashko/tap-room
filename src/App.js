@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+//import Item from "./components/Item";
+//import ItemControl from "./components/ItemControl";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+    style={{
+      // fontFamily: '-apple-system',
+      // fontSize: "1rem",
+      // fontWeight: 1.5,
+      // lineHeight: 1.5,
+      // color: "#292b2c",
+      // backgroundColor: "grey",
+      // padding: "0 2em"
+    }}
+    >
+      <section className="py-4 container">
+        <h2>All Kegs</h2>
+        <div className="row justify-content-center">
+        <ItemControl />
+        </div>
+      </section>
     </div>
   );
 }
 
 export default App;
+
