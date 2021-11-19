@@ -1,52 +1,74 @@
 import React from "react";
-import NewKegForm from 'NewKegForm';
+import NewKegForm from './NewKegForm';
 import KegList from './KegList';
 import KegDetail from './KegDetail';
 import EditKegForm from './EditKegForm';
 import { v4 } from "uuid";
-import keg from './img/keg.png';
+import keg1 from './img/paul.png';
+import keg2 from './img/bud.png';
+import keg3 from './img/chim.png';
+import keg4 from './img/dog.png';
+import keg5 from './img/hoag.png';
+import keg6 from './img/blue.png';
+import keg7 from './img/crys.png';
+import keg8 from './img/alto.png';
+
 
 
 const mainKegList = [
   {
     id: v4(),
-    img: keg,
+    img: keg1,
     name: 'Morning Sunshine',
     description: '',
     quantity: 0,
   },
   {
     id: v4(),
-    img: keg,
+    img: keg2,
     name: 'Daily Booster',
     description: '',
     quantity: 15,
   },
   {
     id: v4(),
-    img: keg,
+    img: keg3,
     name: 'Noon upper',
     description: '',
     quantity: 11,
   },
   {
     id: v4(),
-    img: keg,
+    img: keg4,
     name: 'Moon Landing',
     description: '',
     quantity: 2,
   },
   {
     id: v4(),
-    img: keg,
+    img: keg5,
     name: 'Blue Sorrow',
     description: '',
     quantity: 5,
   },
   {
     id: v4(),
-    img: keg,
+    img: keg6,
     name: 'Coming Soon!',
+    description: '',
+    quantity: 0,
+  },
+  {
+    id: v4(),
+    img: keg7,
+    name: 'Blast Off',
+    description: '',
+    quantity: 0,
+  },
+  {
+    id: v4(),
+    img: keg8,
+    name: "It's party time!",
     description: '',
     quantity: 0,
   }
@@ -84,7 +106,7 @@ class KegControl extends React.Component {
       this.setState({ mainKegList: newMainKegList, formVisibleOnPage: false });
   };
 
-  handleChangeSelectedKeg = (id) => {
+  handleChangingSelectedKeg = (id) => {
     const selectedKeg = this.state.mainKegList.filter((keg) => keg.id === id)[0];
     this.setState({selectedKeg: selectedKeg});
   };
@@ -108,7 +130,7 @@ class KegControl extends React.Component {
   };
 
   handleDeletingKeg = (id) => {
-    const newMainKegList = this.state.mainKegList.filter((keg) => keg.id != id );
+    const newMainKegList = this.state.mainKegList.filter((keg) => keg.id !== id );
     this.setState({
       mainKegList: newMainKegList,
       selectedKeg: null,
