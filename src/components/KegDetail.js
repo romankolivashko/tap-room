@@ -16,10 +16,10 @@ function KegDetail(props) {
 
       <div class="row">
         <div class="col">
-        <button class="btn btn-success" style={{width: "10rem", marginTop: "2rem"}} onClick={ props.onClickingPurchase}>Purchase Keg</button>
+        <button class="btn btn-success" style={{width: "10rem", marginTop: "2rem"}} onClick={ props.onClickingPurchase}>Sell a Pint</button>
         </div>
         <div class="col">
-        <button class="btn btn-success" style={{width: "10rem", marginTop: "2rem"}} onClick={ props.onClickingRestock}> Restock Keg</button>
+        <button class="btn btn-success" style={{width: "10rem", marginTop: "2rem"}} onClick={ props.onClickingRestock}> Refill Keg</button>
         </div>
       </div>
       <div class="row">

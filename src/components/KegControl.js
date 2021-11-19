@@ -141,7 +141,10 @@ class KegControl extends React.Component {
     let purchaseKeg = this.state.mainKegList.filter(keg => keg.id === this.state.selectedKeg.id)[0];
 
     if (purchaseKeg.quantity <= 0) {
-      alert(purchaseKeg.name + " this keg is out of beer.");
+      alert(purchaseKeg.name + " - this keg is out of beer.");
+    } else if (purchaseKeg.quantity == 10){
+      alert(purchaseKeg.name + " - this keg will be empty soon!");
+      purchaseKeg.quantity--;
     } else {
        purchaseKeg = purchaseKeg.quantity--;
 

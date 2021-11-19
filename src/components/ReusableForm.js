@@ -8,21 +8,26 @@ function ReusableForm(props) {
       <div class="form-group">
         <input
           type='text'
+          class="form-control"
           name='name'
           placeholder='Beer name' />
           </div>
+          <br />
           <div class="form-group">
         <input
           type='number'
+          class="form-control"
           name='quantity'
           placeholder='How many in stock' />
           </div>
+          <br />
           <div class="form-group">
         <textarea
+          class="form-control"
           name='description'
           placeholder='Description' />
           </div>
-        <button className="custom-btn" type='submit'>{props.buttonText}</button>
+        <button class="btn btn-info" style={{width: "10rem", marginTop: "1rem"}} type='submit'>{props.buttonText}</button>
         
       </form>
     </React.Fragment>
