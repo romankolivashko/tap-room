@@ -156,7 +156,7 @@ class KegControl extends React.Component {
     let restockKeg = this.state.mainKegList.filter(keg => keg.id === this.state.selectedKeg.id)[0];
     
 
-      restockKeg.quantity +=5;
+      restockKeg.quantity = 124;
 
       this.setState({
         restockKeg: restockKeg
