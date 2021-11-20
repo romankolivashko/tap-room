@@ -29,24 +29,28 @@
 
 ---
 ## Table of Contents
-1. [Description](#description)
-2. [Setup/Installation Requirements](#setup/installation-requirements)
+* [Description](#description)
+* [React Components Diagram](#diagram)
+* [Setup/Installation Requirements](#installation-requirements)
     - [Requirements to Run](#requirements-to-run)
     - [Instructions](#instructions)
     - [Other Technologies Used](#other-technologies-used)
-3. [Notable Features](#notable-features)
-4. [Specifications](#specifications)
+* [Notable Features](#notable-features)
+* [Specifications](#specifications)
     - [User Stories](#user-stories)
-5. [Screenshots](#screenshots)
-6. [How to access the app from the web](#web-access)
-7. [Known Bugs](#known-bugs)
-8. [Support and Contact Details](#support-and-contact-details)
-9. [License](#license)
+* [Screenshots](#screenshots)
+* [How to access the app from the web](#web-access)
+* [Known Bugs](#known-bugs)
+* [Support and Contact Details](#support-and-contact-details)
+* [License](#license)
 ---
 ## Description <a name = "description"></a>
 This app is build with React. Main purpose is to keep track of beer consumption at a busy pub.
 
-## Setup/Installation Requirements <a name = "setup/installation-requirements"></a>
+## React Components Diagram
+
+![](./tap_room_diagram.png)
+## Setup/Installation Requirements <a name = "installation-requirements"></a>
 
 ### Requirements to Run <a name = "requirements-to-run"></a>
 * _Web Browser_
@@ -100,7 +104,7 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 
 ## Known Bugs <a name = "known-bugs"></a>
 
-There are currently no known bugs in this program
+There are currently no known bugs in this program.
 If found, please report it here - [Issues](https://github.com/romankolivashko/tap-room/issues)
 
 ## Support and contact details <a name = "support-and-contact-details"></a>
