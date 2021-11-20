@@ -1,5 +1,4 @@
 #### _Brief desc of Project, 11.19.2021_
-<!-- ##### _Version 1.1 Updated 11.11.2021_ -->
 
 #### By _**Roman Kolivashko**_
 
@@ -58,10 +57,10 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 ### Instructions <a name = "instructions"></a>
 
 1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
-2. Clone the [repository](https://github.com/rkolivashko/tap-room.git) from my [GitHub page](https://github.com/rkolivashko)
-3. Use a command line/Bash to move to the project directory with `cd project-directory`
+2. Clone the repository: `$git clone https://github.com/romankolivashko/tap-room.git`
+3. Use command line/Bash to move to the project directory with `cd project-directory`
 4. Run `npm install` to get all dependencies. 
-5. Run `npm run start` to start up the program
+5. Run `npm run start` to start up the project
 
 
 ## Other Technologies Used <a name = "other-technologies-used"></a>
