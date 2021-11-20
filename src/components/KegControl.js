@@ -142,7 +142,7 @@ class KegControl extends React.Component {
 
     if (purchaseKeg.quantity <= 0) {
       alert(purchaseKeg.name + " - this keg is out of beer.");
-    } else if (purchaseKeg.quantity == 10){
+    } else if (purchaseKeg.quantity === 10){
       alert(purchaseKeg.name + " - this keg will be empty soon!");
       purchaseKeg = purchaseKeg.quantity--;
     } else {
