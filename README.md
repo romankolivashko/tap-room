@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+#### _Brief desc of Project, 11.19.2021_
+<!-- ##### _Version 1.1 Updated 11.11.2021_ -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By _**Roman Kolivashko**_
 
-## Available Scripts
+<html>
+<!-- Project Shields -->
+    <p align="left">
+        <a href="https://github.com/romankolivashko/tap-room">
+            <img src="https://img.shields.io/github/repo-size/romankolivashko/tap-room?style=plastic">
+        </a>
+		  ¨
+        <a href="https://github.com/romankolivashko/tap-room/commits/main">
+            <img src="https://img.shields.io/github/last-commit/romankolivashko/tap-room?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://github.com/romankolivashko/tap-room/stargazers">
+            <img src="https://img.shields.io/github/stars/romankolivashko/tap-room?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://github.com/romankolivashko/tap-room/issues">
+           <img src="https://img.shields.io/github/issues/romankolivashko/tap-room?color=yellow&style=plastic">
+        </a>
+        ¨
+        <a href="https://linkedin.com/in/rkolivashko">
+            <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2">
+        </a>
+    </p> 
+</html>
 
-In the project directory, you can run:
+---
+## Table of Contents
+1. [Description](#description)
+2. [Setup/Installation Requirements](#setup/installation-requirements)
+    - [Requirements to Run](#requirements-to-run)
+    - [Instructions](#instructions)
+    - [Other Technologies Used](#other-technologies-used)
+3. [Notable Features](#notable-features)
+4. [Specifications](#specifications)
+    - [User Stories](#user-stories)
+5. [Screenshots](#screenshots)
+6. [How to access the app from the web](#web-access)
+7. [Known Bugs](#known-bugs)
+8. [Support and Contact Details](#support-and-contact-details)
+9. [License](#license)
+---
+## Description <a name = "description"></a>
+This app is build with React. Main purpose is to keep track of beer consumption at a busy pub.
 
-### `yarn start`
+## Setup/Installation Requirements <a name = "setup/installation-requirements"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Requirements to Run <a name = "requirements-to-run"></a>
+* _Web Browser_
+* _Webpack_
+* _Node.js_
+* _NPM_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Instructions <a name = "instructions"></a>
 
-### `yarn test`
+1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
+2. Clone the [repository](https://github.com/rkolivashko/tap-room.git) from my [GitHub page](https://github.com/rkolivashko)
+3. Use a command line/Bash to move to the project directory with `cd project-directory`
+4. Run `npm install` to get all dependencies. 
+5. Run `npm run start` to start up the program
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Other Technologies Used <a name = "other-technologies-used"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* _HTML_
+* _CSS_
+* _JSX_
+* _Javascript_
+* _Bootstrap 4.4.1_
+* _ESLint_
+* _Babel_
+* _Markdown_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Notable Features <a name = "notable-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Specifications <a name = "specifications"></a>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### User Stories <a name = "user-stories"></a>
+<details>
+  <summary>Click to expand to view User Stories </summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* As a user, I want to see a list/menu of all available kegs. For each keg, I want to see its name, brand, price and alcoholContent (or perhaps something like flavor for a kombucha store).
+* As a user, I want to submit a form to add a new keg to a list.
+* As a user, I want to be able to click on a keg to see its detail page.
+* As a user, I want to see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
+* As a user, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+</details>
 
-## Learn More
+## Screenshots <a name = "screenshots"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to access the app from the web <a name = "web-access"></a>
+* _Follow the link [here](https://e/)_ 
 
-### Code Splitting
+## Known Bugs <a name = "known-bugs"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+There are currently no known bugs in this program
+If found, please report it here - [Issues](https://github.com/romankolivashko/tap-room/issues)
 
-### Analyzing the Bundle Size
+## Support and contact details <a name = "support-and-contact-details"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_If there are any question or concerns please contact me at my [email](mailto:rkolivashko@gmail.com). Thank you._
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*This software is licensed under the MIT license*

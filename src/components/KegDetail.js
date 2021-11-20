@@ -1,10 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { useEffect } from 'react';
+
+
+
+
+
 
 function KegDetail(props) {
   const { keg, onClickingDelete, } = props;
-
-
 
   return (
 <React.Fragment>
