@@ -12,9 +12,10 @@ function KegDetail(props) {
   return (
 <React.Fragment>
   <div class="card p-3" style={{width: "25rem"}}>
-<h1>Keg Detail</h1>
-<h3>{keg.name} - {keg.description}</h3>
-      <p><em>{keg.quantity}</em></p>
+      <h2>Beer Keg Detail</h2>
+      <h3>{keg.name}</h3>
+      <h5>{keg.description}</h5>
+      <h4>Pint available to tend: {keg.quantity}</h4>
       <img src={keg.img} alt="" />
 
       <div class="row">

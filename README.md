@@ -100,7 +100,7 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 
 
 ## How to access the app from the web <a name = "web-access"></a>
-* _Follow the link [here](https://e/)_ 
+* _Follow the link [here](https://silly-tesla-b0faf4.netlify.app)_ 
 
 ## Known Bugs <a name = "known-bugs"></a>
 
