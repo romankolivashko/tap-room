@@ -38,7 +38,6 @@ function App(){
         <div className="col">
 
         <Header />
-        <h2>Tap Selection</h2>
         <div className="row justify-content-center">
         <KegControl />
         </div>

@@ -7,9 +7,10 @@ function KegList(props){
 
   return (
     <React.Fragment>
+        <h2 style={{fontFamily: "Special Elite", textAlign: "center", color: "#F4C7A9"}}>Tap Selection</h2>
         <hr/>
         {props.kegList.map((keg) =>
-          <Keg 
+          <Keg style={{fontFamily: "Special Elite", textAlign: "center"}}
             whenKegClicked = {props.onKegSelection}
             name={keg.name}
             description={keg.description}
