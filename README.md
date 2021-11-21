@@ -31,6 +31,7 @@
 ## Table of Contents
 * [Description](#description)
 * [React Components Diagram](#diagram)
+* [Screenshots](#screenshots)
 * [Setup/Installation Requirements](#installation-requirements)
     - [Requirements to Run](#requirements-to-run)
     - [Instructions](#instructions)
@@ -38,7 +39,6 @@
 * [Notable Features](#notable-features)
 * [Specifications](#specifications)
     - [User Stories](#user-stories)
-* [Screenshots](#screenshots)
 * [How to access the app from the web](#web-access)
 * [Known Bugs](#known-bugs)
 * [Support and Contact Details](#support-and-contact-details)
@@ -50,10 +50,12 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 ## React Components Diagram
 
 ![](./tap_room_diagram.png)
-## Setup/Installation Requirements <a name = "installation-requirements"></a>
+
 
 ## Screenshots <a name = "screenshots"></a>
 ![](./src/components/img/beer_demo.gif)
+
+## Setup/Installation Requirements <a name = "installation-requirements"></a>
 
 ### Requirements to Run <a name = "requirements-to-run"></a>
 * _Web Browser_
