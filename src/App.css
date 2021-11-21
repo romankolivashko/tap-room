@@ -34,6 +34,7 @@
 
 .logotop {
   float: right;
+  margin-left: 20px;
   width: 280px;
   margin-top: -40px;
   margin-left: -350px;
@@ -45,9 +46,6 @@
   margin-top: -190px;
   margin-left: 0%;
   font-family: "Impact";
-  /* font-family: 'CustomFont2'; */
-  /* font-family: 'Graduate', cursive; */
-  /* font-family: 'Special Elite', cursive; */
   font-weight: bold;
   color: #282C34;
 }
