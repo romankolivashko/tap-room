@@ -72,10 +72,21 @@ body {
   display: none;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  }
+
+  .card-img-top {
+    flex-grow: 1;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+}
 
 .card {
-  /* padding-left: 20px;
-  padding-right: 20px; */
   background-image: url('./components/img/red_wood.jpg');
   color: #282C34;
   margin: 20px;
