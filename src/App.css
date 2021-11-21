@@ -1,9 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Special+Elite&display=swap');
 
 /* .App {
   text-align: center;
   
 } */
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./components/fonts/JackportCollege.ttf");
+}
+
+@font-face {
+  font-family: "CustomFont2";
+  src: url("./components/fonts/collegiate/CollegiateFLF.ttf");
+}
+
+.banner {
+  /* margin-top: 50px; */
+  float: left;
+  margin-top: -40px;
+  margin-left: -10px;
+}
+
+.logotop {
+  float: right;
+  width: 280px;
+  margin-top: -40px;
+  margin-left: -350px;
+
+}
+
+.header {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 7%;
+  /* font-family: 'CustomFont2'; */
+  /* font-family: 'Graduate', cursive; */
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  color: #282C34;
+}
+
+.h3 {
+  font-family: 'Special Elite', cursive;
+}
 
 body {
   background-color: #282c34;
@@ -12,6 +52,13 @@ body {
   font-family: Roboto, Arial;
   font-weight: bold;
   text-align: center;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* .card-img-top {
@@ -32,9 +79,6 @@ body {
   background-color: rgba(0,0,0,0.2);
   transition: 0.3s;}
 
-.custom-btn {
-  border: #fff !important;
-}
 
 .side-logo {
   height: 85vmin;

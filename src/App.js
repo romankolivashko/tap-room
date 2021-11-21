@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
 import KegControl from "./components/KegControl";
-import SidePanel from "./components/SidePanel";
+// import SidePanel from "./components/arch/SidePanel";
+import Banner from "./components/Banner";
+import Logo from "./components/Logo";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -21,14 +23,22 @@ function App(){
     >
       <section className="py-4 container">
         {/* <h2>All Kegs</h2> */}
-
         <div className="row">
-        <div className="col-sm-3">
-        <SidePanel />
+          <div className="col-3 logotop">
+          <Logo />  
+          </div>
+          <div className="col-9 banner">
+          <Banner />
+          </div>
         </div>
+        <div className="row">
+        {/* <div className="col-sm-3">
+        <SidePanel />
+        </div> */}
         <div className="col">
 
         <Header />
+        <h2>Tap Selection</h2>
         <div className="row justify-content-center">
         <KegControl />
         </div>
