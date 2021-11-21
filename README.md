@@ -52,6 +52,9 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 ![](./tap_room_diagram.png)
 ## Setup/Installation Requirements <a name = "installation-requirements"></a>
 
+## Screenshots <a name = "screenshots"></a>
+![](./src/components/img/beer_demo.gif)
+
 ### Requirements to Run <a name = "requirements-to-run"></a>
 * _Web Browser_
 * _Webpack_
@@ -95,8 +98,6 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 * As a user, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
 
 </details>
-
-## Screenshots <a name = "screenshots"></a>
 
 
 ## How to access the app from the web <a name = "web-access"></a>
