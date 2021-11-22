@@ -34,10 +34,10 @@
 
 .logotop {
   float: right;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   width: 280px;
   margin-top: -40px;
-  margin-left: -140px;
+  margin-left: -200px;
 
 }
 
