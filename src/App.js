@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <section className="py-4 container">
+
         <div className="row">
           <div className="col-3 logotop">
             <Logo />
@@ -18,6 +18,9 @@ function App() {
             <Banner />
           </div>
         </div>
+
+      <section className="py-4 container">
+        
         <div className="row">
           <div className="col">
             <Header />

@@ -118,6 +118,9 @@ class KegControl extends React.Component {
   };
 
   handleAddingNewKegToList = (newKeg) => {
+      if (newKeg.image == "") {
+        newKeg.image = "./img/default.png";
+      }
       const newMainKegList = this.state.mainKegList.concat(newKeg);
       this.setState({ mainKegList: newMainKegList, formVisibleOnPage: false });
   };

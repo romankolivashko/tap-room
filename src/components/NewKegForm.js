@@ -12,7 +12,8 @@ function NewKegForm(props){
     console.log(event.target.price.value);
     console.log(event.target.alevel.value);
     console.log(event.target.description.value);
-    props.onNewKegCreation({name: event.target.name.value, quantity: event.target.quantity.value, description: event.target.description.value, price: event.target.price.value, alevel: event.target.alevel.value, id: v4()});
+    console.log(event.target.image.value);
+    props.onNewKegCreation({name: event.target.name.value, quantity: event.target.quantity.value, description: event.target.description.value, price: event.target.price.value, alevel: event.target.alevel.value, image: event.target.image.value, id: v4()});
   }
 
   return (

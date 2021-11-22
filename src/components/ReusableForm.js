@@ -48,6 +48,14 @@ function ReusableForm(props) {
             placeholder="Description"
           />
         </div>
+        <br />
+        <div class="form-group hidden">
+          <textarea
+            class="form-control"
+            name="image"
+            placeholder="Add Image"
+          />
+        </div>
         <button
           class="btn btn-info"
           style={{ width: "10rem", marginTop: "1rem" }}

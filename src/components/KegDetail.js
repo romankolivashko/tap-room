@@ -16,7 +16,7 @@ function KegDetail(props) {
       <h4>Alc.: {keg.alevel}</h4>
       <h5>{keg.description}</h5>
       <br />
-      <img src={keg.img} alt="" />
+      <img className="card-img-top" src={keg.img} alt="" />
       <br />
       <h3 style={{textAlign: "center"}}>Pints left in  a keg: {keg.quantity}</h3>
 

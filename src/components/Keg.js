@@ -5,7 +5,7 @@ function Keg(props) {
   return (
     <React.Fragment>
       <div class="card p-0 h-50 shadow" style={{width: "18rem", color: "#F4C7A9"}} onClick = {() => props.whenKegClicked(props.id)}>
-      <img class="p-3" src={props.img} alt="" />
+      <img class="card-img-top p-3" src={props.img} alt="" />
         <h5 class="card-title" style={{textAlign: "center"}} >{props.name}</h5>
         <h5 class="card-title" style={{textAlign: "center"}}>{props.description}</h5>
         <h5 style={{textAlign: "center"}}>Available: {props.quantity} pints</h5>
