@@ -25,6 +25,12 @@
   src: url("./components/fonts/impact/Impact_reversed.ttf");
 }
 
+@font-face {
+  font-family: "Gunplay";
+  src: url("./components/fonts/gunplay.ttf");
+}
+
+
 .banner {
   /* margin-top: 50px; */
   float: left;
@@ -58,9 +64,10 @@ body {
 }
 
 .container {
-  font-family: "Special Elite";
+  /* font-family: "Special Elite"; */
+  font-family: Gunplay;
   font-weight: bold;
-  color: "#F4C7A9"
+  /* color: "#F4C7A9" */
 }
 
 *{

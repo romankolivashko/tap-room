@@ -3,15 +3,12 @@ import PropTypes from "prop-types";
 
 
 
-
-
-
 function KegDetail(props) {
   const { keg, onClickingDelete, } = props;
 
   return (
 <React.Fragment>
-<h2 style={{fontFamily: "Special Elite", textAlign: "center", color: "#F4C7A9"}}>Keg Details</h2>
+<h2 style={{fontFamily: "Gunplay", textAlign: "center", color: "#F4C7A9"}}>Keg Details</h2>
         <br />
   <div class="card p-4 m-3" style={{width: "25rem", color: "#F4C7A9"}}>
       {/* <h2>Beer Keg Detail</h2> */}

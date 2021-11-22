@@ -1,12 +1,12 @@
 import React from "react";
-import logotop from './img/logotop.png'
+import logo1 from './img/logo1.png'
 
 function Logo(){
 
   return (
     <React.Fragment>
       <div class="logotop">
-      <img src={logotop} className="logotop" alt="logo" />
+      <img src={logo1} className="logotop" alt="logo" />
       </div>
       <br />
     </React.Fragment>
