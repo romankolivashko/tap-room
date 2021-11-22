@@ -166,7 +166,6 @@ class KegControl extends React.Component {
 
       this.setState({
         purchaseKeg: purchaseKeg,
-        // purchasing: false
       });
     }
   };

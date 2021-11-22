@@ -11,7 +11,6 @@ function KegDetail(props) {
 <h2 style={{fontFamily: "Gunplay", textAlign: "center", color: "#F4C7A9"}}>Keg Details</h2>
         <br />
   <div class="card p-4 m-3" style={{width: "25rem", color: "#F4C7A9"}}>
-      {/* <h2>Beer Keg Detail</h2> */}
       <h3>Name: {keg.name}</h3>
       <h3>Price: {keg.price}</h3>
       <h4>Alc.: {keg.alevel}</h4>
