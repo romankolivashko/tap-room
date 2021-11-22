@@ -13,7 +13,7 @@ function KegList(props){
           <Keg style={{fontFamily: "Gunplay", textAlign: "center"}}
             whenKegClicked = {props.onKegSelection}
             name={keg.name}
-            description={keg.description}
+            // description={keg.description}
             quantity={keg.quantity}
             img={keg.img}
             id={keg.id}

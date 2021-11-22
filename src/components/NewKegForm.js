@@ -8,9 +8,11 @@ function NewKegForm(props){
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
     console.log(event.target.name.value);
-    console.log(event.target.description.value);
     console.log(event.target.quantity.value);
-    props.onNewKegCreation({name: event.target.name.value, description: event.target.description.value, quantity: event.target.quantity.value, id: v4()});
+    console.log(event.target.price.value);
+    console.log(event.target.alevel.value);
+    console.log(event.target.description.value);
+    props.onNewKegCreation({name: event.target.name.value, quantity: event.target.quantity.value, description: event.target.description.value, price: event.target.price.value, alevel: event.target.alevel.value, id: v4()});
   }
 
   return (

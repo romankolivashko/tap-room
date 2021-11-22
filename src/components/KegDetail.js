@@ -12,10 +12,14 @@ function KegDetail(props) {
         <br />
   <div class="card p-4 m-3" style={{width: "25rem", color: "#F4C7A9"}}>
       {/* <h2>Beer Keg Detail</h2> */}
-      <h3>{keg.name}</h3>
+      <h3>Name: {keg.name}</h3>
+      <h3>Price: {keg.price}</h3>
+      <h4>Alc.: {keg.alevel}</h4>
       <h5>{keg.description}</h5>
-      <h4>Pints left in  a keg: {keg.quantity}</h4>
+      <br />
       <img src={keg.img} alt="" />
+      <br />
+      <h3 style={{textAlign: "center"}}>Pints left in  a keg: {keg.quantity}</h3>
 
       <div class="row">
         <div class="col">
