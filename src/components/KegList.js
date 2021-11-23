@@ -13,7 +13,7 @@ function KegList(props) {
       <hr />
       {props.kegList.map((keg) => (
         <Keg className="card-img-top" 
-          style={{ fontFamily: "Gunplay", textAlign: "center" }}
+          style={{ textAlign: "center" }}
           whenKegClicked={props.onKegSelection}
           name={keg.name}
           quantity={keg.quantity}

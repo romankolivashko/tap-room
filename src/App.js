@@ -9,13 +9,15 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div class="row">
-        <div class="col">
-          <Logo />
-          <Banner />
-          <Header />
+      <div class="row" style={{height: "100px"}}>
+        <div class="col-xs-3">
+            <Logo />
+        </div>
+        <div class="col-xs-9">
+            <Banner />
         </div>
       </div>
+      <Header />
       <section className="py-4 container">
         <div className="row">
           <div className="col">

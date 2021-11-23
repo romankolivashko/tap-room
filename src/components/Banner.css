@@ -1,6 +1,7 @@
 .banner {
-  position: absolute;
-  margin-top: -12px;
+  /* position: absolute; */
+  display: inline-block;
+  margin-top: -128px;
   margin-left: 50px;
   height: 100px;
   width: 100%;
