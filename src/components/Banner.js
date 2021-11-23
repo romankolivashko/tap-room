@@ -1,5 +1,6 @@
 import React from "react";
-import banner from './img/beer.gif'
+import banner from './img/beer.gif';
+import './Banner.css';
 
 function Banner(){
 

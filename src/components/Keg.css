@@ -1,0 +1,24 @@
+/* .card-body{
+  flex-grow: 0;
+} */
+
+/* .card-img-top {
+width: 100%;
+height: 30vh;
+object-fit: cover;
+} */
+
+.card-img-top {
+  flex-grow: 1;
+  object-fit:contain;
+}
+
+.card {
+background-image: url('../components/img/red_wood.jpg');
+color: #282C34;
+margin: 20px;
+box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+background-color: rgba(0,0,0,0.2);
+transition: 0.3s;
+object-fit: cover;
+}

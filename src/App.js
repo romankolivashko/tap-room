@@ -9,21 +9,16 @@ import "./App.css";
 function App() {
   return (
     <div>
-
-        <div className="row">
-          <div className="col-3 logotop">
-            <Logo />
-          </div>
-          <div className="col-9 banner">
-            <Banner />
-          </div>
+      <div class="row">
+        <div class="col">
+          <Logo />
+          <Banner />
+          <Header />
         </div>
-
+      </div>
       <section className="py-4 container">
-        
         <div className="row">
           <div className="col">
-            <Header />
             <div className="row justify-content-center">
               <KegControl />
             </div>

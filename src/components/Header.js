@@ -1,10 +1,11 @@
 import React from "react";
+import './Header.css';
 
 function Header(){
   return (
     <React.Fragment>
       <div class="header">
-      <h1 style={{fontSize: "75px"}}>You look like I need another drink.</h1>
+      <h1 style={{fontSize: "35px"}}>Welcome Beer Drinkers & Hell Raisers</h1>
       </div>
       <br />
     </React.Fragment>

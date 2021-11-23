@@ -5,6 +5,7 @@ function ReusableForm(props) {
   return (
     <React.Fragment>
       <form onSubmit={props.formSubmissionHandler}>
+        <h2 style={{textAlign: "center"}}>Add new beer keg</h2>
         <div class="form-group">
           <input
             type="text"

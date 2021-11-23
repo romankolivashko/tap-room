@@ -25,43 +25,6 @@
   src: url("./components/fonts/gunplay.ttf");
 }
 
-
-.banner {
-  float: left;
-  margin-top: -40px;
-  margin-left: -10px;
-}
-
-.logotop {
-  float: right;
-  /* margin-left: 20px; */
-  width: 280px;
-  margin-top: -40px;
-  margin-left: -200px;
-
-}
-
-.header {
-  position: absolute;
-  margin-top: -190px;
-  margin-left: 0%;
-  font-family: "Impact";
-  font-weight: bold;
-  color: #282C34;
-}
-
-
-body {
-  padding: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.container {
-  font-family: Gunplay;
-  font-weight: bold;
-}
-
 *{
   -ms-overflow-style: none;
 }
@@ -69,52 +32,12 @@ body {
   display: none;
 }
 
-
-.card-body{
-    flex-grow:0;
+body {
+  font-weight: bold;
+  text-align: center;
 }
 
-.card-img-top {
-  width: 100%;
-  height: 30vh;
-  object-fit: cover;
-  }
-
-  .card-img-top {
-    flex-grow: 1;
-    object-fit:contain;
-}
-
-.card {
-  background-image: url('./components/img/red_wood.jpg');
-  color: #282C34;
-  margin: 20px;
-  box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
-  background-color: rgba(0,0,0,0.2);
-  transition: 0.3s;
-  object-fit: cover;
-}
-
-
-.side-logo {
-  height: 85vmin;
-  margin-right: 20px;
-  margin-left: -16%;
-  justify-content: left;
-  position: fixed;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  font-family: Gunplay;
+  font-weight: bold;
 }
