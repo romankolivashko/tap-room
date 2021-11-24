@@ -113,6 +113,7 @@ class KegControl extends React.Component {
     this.setState({ show: false });
   };
 
+ 
 
   handleClick = () => {
     if (this.state.selectedKeg != null) {
@@ -178,10 +179,10 @@ class KegControl extends React.Component {
       (keg) => keg.id === this.state.selectedKeg.id
     )[0];
 
-    if (purchaseKeg.quantity <= 0) {
+    if (Number(purchaseKeg.quantity) <= 0) {
       this.showModal();
       alert(purchaseKeg.name + " - this keg is out of beer.");
-    } else if (purchaseKeg.quantity === 10) {
+    } else if (Number(purchaseKeg.quantity) === 10) {
       this.setState({ show: true})
       alert(purchaseKeg.name + " - this keg will be empty soon!");
       purchaseKeg = purchaseKeg.quantity--;
@@ -250,7 +251,7 @@ class KegControl extends React.Component {
         {currentlyVisibleState}
         <div className="row justify-content-center">
           <button
-            class="btn btn-success"
+            className="btn btn-success"
             style={{ width: "12rem", marginTop: "4rem" }}
             onClick={this.handleClick}
           >

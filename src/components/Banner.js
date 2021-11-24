@@ -6,7 +6,7 @@ function Banner(){
 
   return (
     <React.Fragment>
-      <div class="banner">
+      <div className="banner">
       <img src={banner} className="banner" alt="loading..." />
       </div>
       <br />

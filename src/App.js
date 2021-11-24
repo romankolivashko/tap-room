@@ -9,11 +9,11 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div class="row" style={{height: "100px"}}>
-        <div class="col-xs-3">
+      <div className="row" style={{height: "100px"}}>
+        <div className="col-xs-3">
             <Logo />
         </div>
-        <div class="col-xs-9">
+        <div className="col-xs-9">
             <Banner />
         </div>
       </div>

@@ -6,7 +6,7 @@ function Logo(){
 
   return (
     <React.Fragment>
-      <div class="logotop">
+      <div className="logotop">
       <img src={logo1} className="logotop" alt="logo" />
       </div>
       <br />

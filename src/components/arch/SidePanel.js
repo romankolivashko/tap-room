@@ -5,7 +5,7 @@ import '../App.css';
 function SidePanel(){
   return (
     <React.Fragment>
-      <img class="card-img-top sm" className="side-logo" src={logo} alt="" />
+      <img className="card-img-top sm" className="side-logo" src={logo} alt="" />
     </React.Fragment>
   );
 }

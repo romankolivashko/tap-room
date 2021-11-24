@@ -4,8 +4,8 @@ import './Header.css';
 function Header(){
   return (
     <React.Fragment>
-      <div class="header">
-      <h1 style={{fontSize: "35px"}}>Welcome Beer Drinkers & Hell Raisers</h1>
+      <div className="header">
+      <h1 style={{fontSize: "35px"}}>Wanted: Beer Drinkers & Hell Raisers!</h1>
       </div>
       <br />
     </React.Fragment>
