@@ -5,7 +5,7 @@ import './Keg.css';
 function Keg(props) {
   return (
     <React.Fragment>
-      <div className="card p-0 h-50 shadow" style={{width: "15rem", color: "#F4C7A9"}} onClick = {() => props.whenKegClicked(props.id)}>
+      <div className="card p-0 h-50 border border-danger" style={{width: "15rem", color: "#F4C7A9"}} onClick = {() => props.whenKegClicked(props.id)}>
       <img className="card-img-top p-3" src={props.img} alt="" />
         <h5 className="card-title" style={{textAlign: "center"}} >{props.name}</h5>
         <h5 className="card-title" style={{textAlign: "center"}}>{props.description}</h5>

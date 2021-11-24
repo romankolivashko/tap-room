@@ -41,3 +41,7 @@ body {
   font-family: Gunplay;
   font-weight: bold;
 }
+
+h1 {
+  box-shadow: 0 30px 20px 0 rgba(0,0,0,0.2);
+}
