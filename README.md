@@ -44,7 +44,7 @@
 * [Support and Contact Details](#support-and-contact-details)
 * [License](#license)
 ---
-## Description <a name = "description"></a>
+## Description <a id="description"></a>
 This app is build with React. Main purpose is to keep track of beer consumption at a busy pub.
 
 ## React Components Diagram
@@ -52,18 +52,18 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 ![](./tap_room_diagram.png)
 
 
-## Screenshots <a name = "screenshots"></a>
+## Screenshots <a id="screenshots"></a>
 ![](./src/components/img/beer_demo.gif)
 
-## Setup/Installation Requirements <a name = "installation-requirements"></a>
+## Setup/Installation Requirements <a id="installation-requirements"></a>
 
-### Requirements to Run <a name = "requirements-to-run"></a>
+### Requirements to Run <a id="requirements-to-run"></a>
 * _Web Browser_
 * _Webpack_
 * _Node.js_
 * _NPM_
 
-### Instructions <a name = "instructions"></a>
+### Instructions <a id="instructions"></a>
 
 1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
 2. Clone the repository: `$git clone https://github.com/romankolivashko/tap-room.git`
@@ -72,7 +72,7 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 5. Run `npm run start` to start up the project
 
 
-## Other Technologies Used <a name = "other-technologies-used"></a>
+## Other Technologies Used <a id="other-technologies-used"></a>
 
 * _HTML_
 * _CSS_
@@ -83,13 +83,13 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 * _Babel_
 * _Markdown_
 
-## Notable Features <a name = "notable-features"></a>
+## Notable Features <a id="notable-features"></a>
 
-## Specifications <a name = "specifications"></a>
+## Specifications <a id="specifications"></a>
 
 
 
-### User Stories <a name = "user-stories"></a>
+### User Stories <a id="user-stories"></a>
 <details>
   <summary>Click to expand to view User Stories </summary>
 
@@ -102,20 +102,20 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 </details>
 
 
-## How to access the app from the web <a name = "web-access"></a>
+## How to access the app from the web <a id="web-access"></a>
 * _Follow the link [here](https://silly-tesla-b0faf4.netlify.app)_ 
 
-## Known Bugs <a name = "known-bugs"></a>
+## Known Bugs <a id="known-bugs"></a>
 
 There are currently no known bugs in this program.
 If found, please report it here - [Issues](https://github.com/romankolivashko/tap-room/issues)
 
-## Support and contact details <a name = "support-and-contact-details"></a>
+## Support and contact details <a id="support-and-contact-details"></a>
 
 _If there are any question or concerns please contact me at my [email](mailto:rkolivashko@gmail.com). Thank you._
 
 
 
-### License
+### License <a id="license"></a>
 
 *This software is licensed under the MIT license*
