@@ -52,7 +52,7 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 
 
 ## Screenshots <a id="screenshots"></a>
-![](./src/components/img/beer_demo.gif)
+![](./src/components/img/beerdemo.gif)
 
 ## Setup/Installation Requirements <a id="installation-requirements"></a>
 
