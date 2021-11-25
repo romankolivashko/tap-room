@@ -36,7 +36,6 @@
     - [Requirements to Run](#requirements-to-run)
     - [Instructions](#instructions)
     - [Other Technologies Used](#other-technologies-used)
-* [Notable Features](#notable-features)
 * [Specifications](#specifications)
     - [User Stories](#user-stories)
 * [How to access the app from the web](#web-access)
@@ -83,11 +82,8 @@ This app is build with React. Main purpose is to keep track of beer consumption 
 * _Babel_
 * _Markdown_
 
-## Notable Features <a id="notable-features"></a>
 
 ## Specifications <a id="specifications"></a>
-
-
 
 ### User Stories <a id="user-stories"></a>
 <details>
