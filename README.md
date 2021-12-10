@@ -1,4 +1,4 @@
-#### _Brief desc of Project, 11.19.2021_
+#### _Project started: 11.19.2021_
 
 #### By _**Roman Kolivashko**_
 
